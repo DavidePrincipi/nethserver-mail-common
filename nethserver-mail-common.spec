@@ -1,6 +1,6 @@
 Summary: Common configuration for mail packages
-Name: nethserver-mail-common
-Version: 1.6.6
+Name: nethserver-mail2-common
+Version: 2.0.0
 Release: 1%{?dist}
 License: GPL
 URL: %{url_prefix}/%{name}
@@ -9,6 +9,7 @@ BuildArch: noarch
 
 Provides: nethserver-mail-disclaimer = 0.0.0
 Requires: nethserver-mail-smarthost
+Conflicts: nethserver-mail-common
 
 BuildRequires: nethserver-devtools
 
